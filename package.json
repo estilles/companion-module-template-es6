@@ -1,6 +1,6 @@
 {
   "name": "manufacturer-product",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "description",
   "manufacturer": "manufacturer",
   "product": [
@@ -11,19 +11,21 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prettier": "prettier",
-    "eslint": "eslint"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/username/companion-module-manufacturer-product.git"
+    "eslint": "eslint",
+    "semantic-release": "semantic-release"
   },
   "keywords": [
     "keyword"
   ],
-  "author": "First Last <name@domain>",
+  "author": "Johnny Estilles <johnny@estilles.com>",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.1.0",
-    "prettier": "^2.4.1"
+    "prettier": "^2.4.1",
+    "semantic-release": "^18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/estilles/companion-module-template-es6.git"
   }
 }
