@@ -2,14 +2,15 @@
   "name": "manufacturer-product",
   "version": "1.0.0",
   "description": "description",
-	"manufacturer": "manufacturer",
-	"product": [
-		"product"
-	],
-	"shortname": "shortname",
-	"main": "src/index.js",
+  "manufacturer": "manufacturer",
+  "product": [
+    "product"
+  ],
+  "shortname": "shortname",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "prettier"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,8 @@
     "keyword"
   ],
   "author": "First Last <name@domain>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.4.1"
+  }
 }
