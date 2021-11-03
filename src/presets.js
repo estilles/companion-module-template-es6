@@ -20,10 +20,10 @@ module.exports = {
 				{
 					action: 'sampleAction',
 					options: {
-						sampleOption: 'Sample Option Value'
-					}
-				}
-			]
+						sampleOption: 'Sample Option Value',
+					},
+				},
+			],
 		})
 
 		this.setPresetDefinitions(presets)
