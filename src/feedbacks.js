@@ -23,7 +23,7 @@ module.exports = {
 					default: 'Some other state',
 				},
 			],
-			callback: function (feedback) {
+			callback: function ({ options }) {
 				// This callback will be called whenever companion wants to check if this feedback is 'active' and should affect the button style
 				if (this.store.sampleState == options.someValue) {
 					return true
