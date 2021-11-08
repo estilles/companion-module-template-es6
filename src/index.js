@@ -7,7 +7,7 @@ const presets = require('./presets')
 const variables = require('./variables')
 const feedbacks = require('./feedbacks')
 
-class MixEffectInstance extends instance_skel {
+class Instance extends instance_skel {
 	constructor(system, id, config) {
 		super(system, id, config)
 
@@ -52,4 +52,4 @@ class MixEffectInstance extends instance_skel {
 	destroy() {}
 }
 
-module.exports = MixEffectInstance
+module.exports = Instance
